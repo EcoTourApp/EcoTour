@@ -28,6 +28,7 @@
 
 	ol, ul {
 		list-style: none;
+        padding-left: 40px;
 	}
 
 	blockquote, q {
@@ -1073,7 +1074,7 @@
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
 		color: #6b7770;
-		font-size: 11.5pt;
+		font-size: 13pt;
 		line-height: 2em;
 	}
 
@@ -1291,7 +1292,6 @@
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #c1cac5;
 		}
 
 			input[type="button"].alt:hover,
@@ -1654,7 +1654,7 @@
 	#main-wrapper {
 		background: #fff;
 		border-top: solid 5px #b1ddab;
-		border-bottom: solid 5px #c1cac5;
+		border-bottom: solid 5px #b1ddab;
 	}
 
 /* Banner */
@@ -1671,7 +1671,7 @@
 	}
 
 		#banner h2 {
-			color: #fff;
+			color: #b1ddab;
 		}
 
 		#banner p {
@@ -1690,18 +1690,18 @@
 			color: #b4b7b5;
 			background: transparent !important;
 			border: solid 4px #575d59;
-			border-color: #fff;
+			border-color: #b1ddab;
 			border-radius: 16px;
 		}
 
 			#banner .button:hover {
-				color: #e4e7e5;
+				color: #b1ddab;
 				border-color: rgba(87, 93, 89, 0.75);
 			}
 
 			#banner .button:active {
-				color: #fff;
-				border-color: #616763;
+				color: #b1ddab;
+				border-color: #b1ddab;
 			}
 
 /* Footer */
@@ -1734,7 +1734,7 @@
 
 			#copyright .menu li {
 				border-color: #C1CAC5;
-				border-width: 2px;
+				border-width: 0px;
 				line-height: 1em;
 			}
 
@@ -2092,7 +2092,7 @@
 
 			#footer {
 				text-align: center;
-				padding: 8em 0 8em 0;
+				padding: 1em 0 4em 0;
 			}
 
 				#footer h2.major {
@@ -2213,7 +2213,7 @@
 
 			body, input, textarea, select {
 				line-height: 1.75em;
-				font-size: 10pt;
+				font-size: 10.5pt;
 				letter-spacing: 0;
 			}
 
@@ -2263,6 +2263,8 @@
 			}
 
 		/* List */
+        
+
 
 			ul.special li {
 				margin: 0.5em;
